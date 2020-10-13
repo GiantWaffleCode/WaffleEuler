@@ -1,6 +1,6 @@
 current_digit = 1
 last_digit = 1
-new_digit = 1
+new_digit = 1  # change
 total = 0
 
 while current_digit <= 4000000:
