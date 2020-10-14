@@ -6,7 +6,7 @@ total = 0
 while current_digit <= 4000000:
     print(current_digit)
     if (current_digit % 2) == 0:
-        total = total + current_digit
+        total += current_digit
     new_digit = current_digit + last_digit  # This part can be a lot better
     last_digit = current_digit
     current_digit = new_digit
